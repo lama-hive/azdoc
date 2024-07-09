@@ -1,0 +1,27 @@
+{
+  "name": "lama-hive/azdoc",
+  "type": "library",
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "Jakub Hluchý",
+      "email": "hluchjak@outlook.com"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "8.2"
+    }
+  },
+  "require": {
+    "php": "8.2",
+    "ext-json": "*",
+    "php-curl-class/php-curl-class": "^9.6",
+    "vlucas/phpdotenv": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lamahive\\Azdoc\\": "src/"
+    }
+  }
+}
